@@ -1,9 +1,10 @@
+import { Slot } from "expo-router"
 import { Text } from "react-native"
 
 export default function AuthLayout(){
     return (
         <>
-            <Text>Auth Layout</Text>
+            <Slot/>
         </>
     )
 };
